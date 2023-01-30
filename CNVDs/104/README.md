@@ -4,3 +4,4 @@ This vulnerability lies in the `/goform/RouteStatic` page which influences the l
 There is a stack-based buffer overflow vulnerability in function `fromRouteStatic`.
 
 In function `fromRouteStatic` it reads 2 user provided parameters `entrys` and `mitInterface` into `v8` and `v7`, and these two variables are passed into function `sprintf` without any length check, which may overflow the stack-based buffer `s`.
+![](./104/vlun.png)
