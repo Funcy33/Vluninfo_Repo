@@ -1,5 +1,6 @@
 # Tenda Router W30E Vulnerability
 This vulnerability lies in the `/goform/RouteStatic` page which influences the lastest version of Tenda Router W30E. (The latest version is [W30E_V1.0.1.25(633)](https://www.tenda.com.cn/download/detail-2218.html))
+
 ## Vulnerability Description
 There is a stack-based buffer overflow vulnerability in function `fromRouteStatic`.
 
