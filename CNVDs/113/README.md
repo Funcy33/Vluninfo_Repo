@@ -1,5 +1,5 @@
 # Tenda Router AC500 Vulnerability
-This vulnerability lies in the `/goform/RouteStatic` page which influences the lastest version of Tenda Router AC500. (The latest version is [AC500_V1.0.0.16](https://www.tenda.com.cn/download/detail-2219.html))
+This vulnerability lies in the `/goform/RouteStatic` page which influences the lastest version of Tenda Router AC500. (The latest version is [AC500_V2.0.1.9(1307)](https://www.tenda.com.cn/download/detail-2470.html))
 ## Vulnerability Description
 There is a stack-based buffer overflow vulnerability in function `fromRouteStatic`.
 
