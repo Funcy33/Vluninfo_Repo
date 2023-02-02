@@ -1,5 +1,5 @@
 # Tenda Router AC9 Vulnerability
-This vulnerability lies in the `/goform/addressNat` page which influences the lastest version of Tenda Router AC500. (The latest version is [AC93.0_V15.03.06.42_multi](https://www.tenda.com.cn/download/detail-2908.html))
+This vulnerability lies in the `/goform/addressNat` page which influences the lastest version of Tenda Router AC9. (The latest version is [AC9V3.0_V15.03.06.42_multi](https://www.tenda.com.cn/download/detail-2908.html))
 ## Vulnerability Description
 There is a stack-based buffer overflow vulnerability in function `fromAddressNat`.
 
