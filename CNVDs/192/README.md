@@ -20,5 +20,6 @@ url += "&mitInterface=" + "a" * 0x200
 response = requests.get(url)
 ```
 ## Timeline
+2023-02-04: Report to CVE;
 ## Acknowledgment
 Credit to [@Funcy_kilar](https://github.com/Funcy33) from Guangzhou University.
