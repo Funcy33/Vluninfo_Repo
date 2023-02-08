@@ -1,5 +1,5 @@
 # Tenda Router AC6 Vulnerability
-This vulnerability lies in the `/goform/fast_setting_wifi_set` page which influences the lastest version of Tenda Router AC500. (The latest version is [AC6_V15.03.05.19](https://www.tenda.com.cn/download/detail-2681.html))
+This vulnerability lies in the `/goform/fast_setting_wifi_set` page which influences the lastest version of Tenda Router AC6_V15.03.05.16. (The latest version is [AC6_V15.03.05.19](https://www.tenda.com.cn/download/detail-2681.html))
 ## Vulnerability Description
 There is a stack-based buffer overflow vulnerability in function `form_fast_setting_wifi_set`.
 
