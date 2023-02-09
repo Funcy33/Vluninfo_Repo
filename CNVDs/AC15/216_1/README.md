@@ -4,7 +4,7 @@ This vulnerability lies in the `/goform/fast_setting_wifi_set` page which influe
 There is a stack-based buffer overflow vulnerability in function `form_fast_setting_wifi_set`.
 
 In function `form_fast_setting_wifi_set` it reads user provided parameter `ssid` into src`, and this variable is passed into function `strcpy` without any length check, which may overflow the stack-based buffer `s`.
-![](https://github.com/Funcy33/Vluninfo_Repo/blob/main/CNVDs/AC15/215_1/vlun2.png)
+![](https://github.com/Funcy33/Vluninfo_Repo/blob/main/CNVDs/AC15/216_1/vlun2.png)
 
 So by requesting the page `/goform/fast_setting_wifi_set`, the attacker can easily perform a Deny of Service Attack.
 ## POC
