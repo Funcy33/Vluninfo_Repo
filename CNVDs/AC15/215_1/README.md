@@ -1,10 +1,10 @@
-# Tenda Router AC6 Vulnerability
+# Tenda Router AC15 Vulnerability
 This vulnerability lies in the `/goform/fast_setting_wifi_set` page which influences the lastest version of Tenda Router AC15_V15.03.05.18. (The latest version is [AC15_V15.03.05.19](https://www.tenda.com.cn/download/detail-2680.html))
 ## Vulnerability Description
 There is a stack-based buffer overflow vulnerability in function `form_fast_setting_wifi_set`.
 
 In function `form_fast_setting_wifi_set` it reads user provided parameter `ssid` into src`, and this variable is passed into function `strcpy` without any length check, which may overflow the stack-based buffer `s`.
-![](https://github.com/Funcy33/Vluninfo_Repo/blob/main/CNVDs/AC6/205_1/vlun2.png)
+![](https://github.com/Funcy33/Vluninfo_Repo/blob/main/CNVDs/AC15/215_1/vlun2.png)
 
 So by requesting the page `/goform/fast_setting_wifi_set`, the attacker can easily perform a Deny of Service Attack.
 ## POC
