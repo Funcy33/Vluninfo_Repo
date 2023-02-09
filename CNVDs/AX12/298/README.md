@@ -4,7 +4,8 @@ This vulnerability lies in the `/goform/fast_setting_wifi_set` page which influe
 There is a stack-based buffer overflow vulnerability in function `sub_431CF0`.
 
 In function `sub_431CF0` it reads user provided parameter `ssid` into `v2`, and this variable is passed into function `sprintf` without any length check, which may overflow the stack-based buffer `s`.
-![](https://github.com/Funcy33/Vluninfo_Repo/blob/main/CNVDs/AC15/215_1/vlun2.png)
+
+![](https://github.com/Funcy33/Vluninfo_Repo/blob/main/CNVDs/AX12/298/vlun.png)
 
 So by requesting the page `/goform/fast_setting_wifi_set`, the attacker can easily perform a Deny of Service Attack.
 ## POC
