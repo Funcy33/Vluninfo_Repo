@@ -1,5 +1,5 @@
 # Tenda FH451 Vulnerability
-This vulnerability lies in the `/goform/RouteStatic` page which influences the lastest version of Tenda [FH451_V1.0.0.5](https://www.tenda.com.cn/download/detail-1375.html) and Tenda [FH451_V1.0.0.7](https://www.tenda.com.cn/download/detail-1594.html).
+This vulnerability lies in the `/goform/RouteStatic` page which influences the lastest version of Tenda [FH451_V1.0.0.5](https://www.tenda.com.cn/download/detail-1375.html) and Tenda [FH451_V1.0.0.7](https://www.tenda.com.cn/download/detail-1594.html) .
 ## Vulnerability Description
 There is a stack-based buffer overflow vulnerability in function `fromRouteStatic`.
 
