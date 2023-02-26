@@ -6,7 +6,7 @@ There is a stack-based buffer overflow vulnerability in function fromAddressNat 
 The example is as follows:
 
 In function `fromAddressNat` it reads 2 user provided parameters `entrys` and `mitInterface` into `v8` and `v7`, and these two variables are passed into function `sprintf` without any length check, which may overflow the stack-based buffer `s`.
-![](https://github.com/Funcy33/Vluninfo_Repo/blob/main/CNVDs/F456/41/vlun1.png)
+![](https://github.com/Funcy33/Vluninfo_Repo/blob/main/CNVDs/all/vlun.png)
 
 So by requesting the page `/goform/addressNat`, the attacker can easily perform a **Deny of Service Attack** or **Remote Code Execution** with carefully crafted overflow data.
 ## PoC
