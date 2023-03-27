@@ -21,5 +21,7 @@ response = requests.get(url)
 ```
 ## Timeline
 2023-01-30: Report to CVE;
+2023-2-27: CVE-2023-24231;
+2023-02-03：Report to CNVD;
 ## Acknowledgment
 Credit to [@Funcy_kilar](https://github.com/Funcy33) from Guangzhou University.
