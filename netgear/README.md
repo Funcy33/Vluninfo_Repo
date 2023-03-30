@@ -24,6 +24,8 @@ s.send(header % len(post_data+gadget) + post_data + gadget + pad + gadget2 + cmd
 s.close()
 ```
 ## Timeline
+2023-03-20: Report to CNVD;
+2023-03-30: Report to CVE;
 
 ## Acknowledgment
 Credit to @XYlearn and @Funcy_kilar from Fudan University, Guangzhou University.
